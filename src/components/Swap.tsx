@@ -1,10 +1,10 @@
 
 import { SwapDefault } from '@coinbase/onchainkit/swap'
 import type { Token } from '@coinbase/onchainkit/token'
-import { useAccount } from 'wagmi'
+// import { useAccount } from 'wagmi'
 
 export function Swap() {
-    const { address } = useAccount()
+    // const { address } = useAccount()
     const ETHToken: Token = {
         address: "",
         chainId: 8453,

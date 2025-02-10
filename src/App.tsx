@@ -1,5 +1,5 @@
 import { WagmiProvider } from 'wagmi'
-import { QueryClient, QueryClientProvider } from 'react-query'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { config } from './config'
 import { Swap } from './components/Swap'
 
